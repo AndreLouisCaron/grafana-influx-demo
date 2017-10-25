@@ -18,6 +18,6 @@ Included:
    * Grafana dashboard
    * Samples in InfluxDB to showcase the dashboard
 
- #. Python script to shut everything down.
+#. Python script to shut everything down.
 
 Python scripts are compatible with both Python 2.7 and Python 3.5.
