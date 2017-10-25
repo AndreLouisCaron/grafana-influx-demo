@@ -1,0 +1,16 @@
+# -*- coding: utf-8 -*-
+
+version: '2'
+
+services:
+  influxdb:
+    image: "influxdb:1.3.0-alpine"
+    ports:
+      - "8086"
+
+  grafana:
+    image: "grafana/grafana"
+    ports:
+      - "3000"
+    links:
+      - influxdb
